@@ -327,7 +327,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/cofclan145",
     },
     {
       siteName: "Codechef",
@@ -335,7 +335,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/anzal1010",
     },
     {
       siteName: "Codeforces",
@@ -343,7 +343,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "https://codeforces.com/profile/ANZAL",
     },
     {
       siteName: "Hackerearth",
@@ -351,7 +351,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@anzal_abidi",
     },
     {
       siteName: "Kaggle",
@@ -359,8 +359,8 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+      profileLink: "https://www.kaggle.com/anzalhusainabidi",
+    }
   ],
 };
 
@@ -543,7 +543,7 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "anzalhs.png",
+    profile_image_path: "anzaloriginal.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -551,7 +551,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
