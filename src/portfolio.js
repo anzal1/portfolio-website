@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
   "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1q7066d_KhMIn1SKS1gCQyN3-jRBiau5-/view?usp=sharing",
   portfolio_repository: "https://github.com/anzal1",
 };
 
@@ -551,7 +551,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "",
+    link: "https://geeky-blogs.netlify.app/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
