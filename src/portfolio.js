@@ -1,8 +1,7 @@
-/* Change this file to get your personal Porfolio */
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -30,14 +29,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -335,7 +326,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/anzal1010",
+      profileLink: "#",
     },
     {
       siteName: "Codeforces",
@@ -368,7 +359,7 @@ const degrees = {
   degrees: [
     {
       title: "Jamia Milia Islamia",
-      subtitle: "B.Tech. in Computer science Engineering",
+      subtitle: "B.Tech. in Computer Science Engineering",
       logo_path: "jamia.png",
       alt_name: "JMI",
       duration: "2020 - Present",
@@ -500,7 +491,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with a few evolving startups as Developer, Designer and Software Architect.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -512,12 +503,56 @@ const experience = {
     {
       title: "Internships",
       experiences: [
-       
-      ],
+				{
+					title: "Software Develepment Intern",
+					company: "Angage360",
+					company_url: "https://www.angage360.com/",
+					logo_path: "angage_logo.jpeg",
+					duration: "December 2021 - Present",
+					location: "Work from Home",
+					description:
+						"I have been working to develop new tech solutions in analytics of industrial growth and the prevention of burnouts in the tech industry .",
+					color: "#ee3c26"
+				},
+				{
+					title: "Frontend Developer",
+					company: "Oriflame",
+					company_url:
+						"#",
+					logo_path: "oriflame_logo.jpg",
+					duration: "Sept 2021 - Nov 2021",
+					location: "Work From Home",
+					description:
+						"New product showcase designs and various tweaks in the UI.",
+					color: "#0071C5"
+				}
+			],
     },
      {
       title: "Volunteerships",
       experiences: [
+        {
+					title: "IEEE CS JMI (TECHNICAL ADVISOR) ",
+					company: "IEEE CS",
+					company_url: "#",
+					logo_path: "IEES_logo.png",
+					duration: "Feb 2022 - Present",
+					location: "Delhi, India",
+					description:
+						"Contributing to the community to help students explore and learn new tech and choose right track.",
+					color: "#4285F4"
+				},
+				{
+					title: "IEEE CS JMI (DSA LEAD)",
+					company: "IEEE  CS",
+					company_url: "#",
+					logo_path: "IEES_logo.png",
+					duration: "Jan 2021 - Jan 2022",
+					location: "Delhi, India", 
+					description:
+						"Contributing to the community to help students explore and learn new tech and choose right track.",
+					color: "#D83B01"
+				}
         
       ],
     },
@@ -543,7 +578,7 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "secondanzal.jpg",
+    profile_image_path: "secondanzal.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },

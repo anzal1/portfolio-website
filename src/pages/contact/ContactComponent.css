@@ -57,6 +57,7 @@
 .contact-heading-img-div > * {
   max-width: 100%;
   height: auto;
+  border-radius: 6%;
 }
 
 .blog-heading-img-div > * {
