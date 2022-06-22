@@ -4,18 +4,23 @@ import { BaseProvider, LightTheme } from "baseui";
 import { Provider as StyletronProvider } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-atomic";
 
+import "@szhsin/react-menu/dist/index.css";
+import "@szhsin/react-menu/dist/transitions/slide.css";
 import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "./assests/font-awesome/css/all.css";
+import { RecoilRoot } from "recoil";
 
 const engine = new Styletron();
 
 ReactDOM.render(
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>
-      <App />
+      <RecoilRoot>
+        <App />
+      </RecoilRoot>
     </BaseProvider>
   </StyletronProvider>,
   document.getElementById("root")

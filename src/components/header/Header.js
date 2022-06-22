@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import ThemeToggler from "../colorSwitcher/ColorSwitcher";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -85,7 +86,8 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
+
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -96,7 +98,7 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"
@@ -109,6 +111,17 @@ class Header extends Component {
                   Contact Me
                 </NavLink>
               </li>
+              {/* <li>
+                <NavLink
+                  to="#"
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  <ThemeToggler />
+                </NavLink>
+              </li> */}
             </ul>
           </header>
         </div>
