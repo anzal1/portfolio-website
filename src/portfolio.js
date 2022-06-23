@@ -1,4 +1,3 @@
-
 // Website related settings
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
@@ -22,14 +21,13 @@ const greeting = {
   logo_name: "AnzalHusainAbidi",
   nickname: "Lucifer's Hangout",
   subTitle:
-  "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
+    "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
   resumeLink:
     "https://drive.google.com/file/d/1q7066d_KhMIn1SKS1gCQyN3-jRBiau5-/view?usp=sharing",
   portfolio_repository: "https://github.com/anzal1",
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
     link: "https://github.com/anzal1",
@@ -326,7 +324,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "#",
+      profileLink: "https://www.codechef.com/users/lucifer_who",
     },
     {
       siteName: "Codeforces",
@@ -351,7 +349,7 @@ const competitiveSites = {
         color: "#20BEFF",
       },
       profileLink: "https://www.kaggle.com/anzalhusainabidi",
-    }
+    },
   ],
 };
 
@@ -366,7 +364,6 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and  Web Development.",
-      
       ],
       website_link: "https://www.jmi.ac.in/",
     },
@@ -379,8 +376,7 @@ const certifications = {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -388,8 +384,7 @@ const certifications = {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -397,8 +392,7 @@ const certifications = {
       title: "ML on GCP",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -406,8 +400,7 @@ const certifications = {
       title: "Data Science",
       subtitle: "- Alex Aklson",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -415,8 +408,7 @@ const certifications = {
       title: "Big Data",
       subtitle: "- Kim Akers",
       logo_path: "microsoft_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
@@ -424,8 +416,7 @@ const certifications = {
       title: "Advanced Data Science",
       subtitle: "- Romeo Kienzler",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -433,8 +424,7 @@ const certifications = {
       title: "Advanced ML on GCP",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -442,8 +432,7 @@ const certifications = {
       title: "DL on Tensorflow",
       subtitle: "- Laurence Moroney",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -451,8 +440,7 @@ const certifications = {
       title: "Fullstack Development",
       subtitle: "- Jogesh Muppala",
       logo_path: "coursera_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Coursera",
       color_code: "#2A73CC",
     },
@@ -460,8 +448,7 @@ const certifications = {
       title: "Kuberenetes on GCP",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
@@ -469,8 +456,7 @@ const certifications = {
       title: "Cryptography",
       subtitle: "- Saurabh Mukhopadhyay",
       logo_path: "nptel_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "NPTEL",
       color_code: "#FFBB0099",
     },
@@ -478,8 +464,7 @@ const certifications = {
       title: "Cloud Architecture",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
@@ -496,64 +481,60 @@ const experience = {
   sections: [
     {
       title: "Work",
-      experiences: [
-        
-      ],
+      experiences: [],
     },
     {
       title: "Internships",
       experiences: [
-				{
-					title: "Software Develepment Intern",
-					company: "Angage360",
-					company_url: "https://www.angage360.com/",
-					logo_path: "angage_logo.jpeg",
-					duration: "December 2021 - Present",
-					location: "Work from Home",
-					description:
-						"I have been working to develop new tech solutions in analytics of industrial growth and the prevention of burnouts in the tech industry .",
-					color: "#ee3c26"
-				},
-				{
-					title: "Frontend Developer",
-					company: "Oriflame",
-					company_url:
-						"#",
-					logo_path: "oriflame_logo.jpg",
-					duration: "Sept 2021 - Nov 2021",
-					location: "Work From Home",
-					description:
-						"New product showcase designs and various tweaks in the UI.",
-					color: "#0071C5"
-				}
-			],
+        {
+          title: "Software Develepment Intern",
+          company: "Angage360",
+          company_url: "https://www.angage360.com/",
+          logo_path: "angage_logo.jpeg",
+          duration: "December 2021 - Present",
+          location: "Work from Home",
+          description:
+            "I have been working to develop new tech solutions in analytics of industrial growth and the prevention of burnouts in the tech industry .",
+          color: "#ee3c26",
+        },
+        {
+          title: "Frontend Developer",
+          company: "Oriflame",
+          company_url: "#",
+          logo_path: "oriflame_logo.jpg",
+          duration: "Sept 2021 - Nov 2021",
+          location: "Work From Home",
+          description:
+            "New product showcase designs and various tweaks in the UI.",
+          color: "#0071C5",
+        },
+      ],
     },
-     {
+    {
       title: "Volunteerships",
       experiences: [
         {
-					title: "IEEE CS JMI (TECHNICAL ADVISOR) ",
-					company: "IEEE CS",
-					company_url: "#",
-					logo_path: "IEES_logo.png",
-					duration: "Feb 2022 - Present",
-					location: "Delhi, India",
-					description:
-						"Contributing to the community to help students explore and learn new tech and choose right track.",
-					color: "#4285F4"
-				},
-				{
-					title: "IEEE CS JMI (DSA LEAD)",
-					company: "IEEE  CS",
-					company_url: "#",
-					logo_path: "IEES_logo.png",
-					duration: "Jan 2021 - Jan 2022",
-					location: "Delhi, India", 
-					description:
-						"Contributing to the community to help students explore and learn new tech and choose right track.",
-					color: "#D83B01"
-				}
-        
+          title: "IEEE CS JMI (TECHNICAL ADVISOR) ",
+          company: "IEEE CS",
+          company_url: "#",
+          logo_path: "IEES_logo.png",
+          duration: "Feb 2022 - Present",
+          location: "Delhi, India",
+          description:
+            "Contributing to the community to help students explore and learn new tech and choose right track.",
+          color: "#4285F4",
+        },
+        {
+          title: "IEEE CS JMI (DSA LEAD)",
+          company: "IEEE  CS",
+          company_url: "#",
+          logo_path: "IEES_logo.png",
+          duration: "Jan 2021 - Jan 2022",
+          location: "Delhi, India",
+          description:
+            "Contributing to the community to help students explore and learn new tech and choose right track.",
+          color: "#D83B01",
+        },
       ],
     },
   ],
@@ -591,10 +572,10 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "337/215,Kazmain Road,Lucknow,Uttar Pradesh,India",
+    subtitle: "337/215,Kazmain Road,Lucknow,Uttar Pradesh,India",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/Sayyed+Chand/@26.8568043,80.8890082,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x399bfde18e0dcebb:0x4036ae5089f2ab65!2sKatra+Bizanbeg,+Chowk,+Lucknow,+Uttar+Pradesh+226003!3b1!8m2!3d26.8608076!4d80.9000331!3m4!1s0x399bfd24e8451297:0x9694d02b5584a30e!8m2!3d26.8567854!4d80.8977415",
+    location_map_link:
+      "https://www.google.com/maps/place/Sayyed+Chand/@26.8568043,80.8890082,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x399bfde18e0dcebb:0x4036ae5089f2ab65!2sKatra+Bizanbeg,+Chowk,+Lucknow,+Uttar+Pradesh+226003!3b1!8m2!3d26.8608076!4d80.9000331!3m4!1s0x399bfd24e8451297:0x9694d02b5584a30e!8m2!3d26.8567854!4d80.8977415",
   },
   phoneSection: {
     title: "Phone Number",
