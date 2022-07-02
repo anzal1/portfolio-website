@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1q7066d_KhMIn1SKS1gCQyN3-jRBiau5-/view?usp=sharing",
+    "https://drive.google.com/file/d/1NqtNzZeuIlLLB38gS1oT07Uqwy8neXmT/view?usp=sharing",
   portfolio_repository: "https://github.com/anzal1",
 };
 
