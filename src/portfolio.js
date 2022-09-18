@@ -22,8 +22,7 @@ const greeting = {
   nickname: "Lucifer's Hangout",
   subTitle:
     "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
-  resumeLink:
-    "https://www.dropbox.com/s/sve27zuk9fsqg26/anzal_new_resume.pdf?dl=0",
+  resumeLink: "https://mega.nz/file/PPwmUICK#NFC4tJo5GZUsN-rkkND6XSVWji6vrorszs7S-NVT_mo",
   portfolio_repository: "https://github.com/anzal1",
 };
 
