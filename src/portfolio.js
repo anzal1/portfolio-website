@@ -22,7 +22,8 @@ const greeting = {
   nickname: "Lucifer's Hangout",
   subTitle:
     "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
-  resumeLink: "https://mega.nz/file/PPwmUICK#NFC4tJo5GZUsN-rkkND6XSVWji6vrorszs7S-NVT_mo",
+  resumeLink:
+    "https://mega.nz/file/PPwmUICK#NFC4tJo5GZUsN-rkkND6XSVWji6vrorszs7S-NVT_mo",
   portfolio_repository: "https://github.com/anzal1",
 };
 
@@ -507,6 +508,27 @@ const experience = {
             "New product showcase designs and various tweaks in the UI.",
           color: "#0071C5",
         },
+        {
+          title: "Full Stack Developer",
+          company: "Sopay",
+          company_url: "https://www.sopay.world",
+          logo_path: "sopay.webp",
+          duration: "Sept 2022 - Present",
+          location: "Work From Home",
+          description: "Product website design and stuff.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Developer",
+          company: "DevDynamics",
+          company_url: "https://devdynamics.ai",
+          logo_path: "logomark-64.png",
+          duration: "Nov 2021 - Now",
+          location: "Work From Home",
+          description:
+            "End to end portal design as well as the product landing page.",
+          color: "#0071C5",
+        },
       ],
     },
     {
@@ -533,6 +555,17 @@ const experience = {
           description:
             "Contributing to the community to help students explore and learn new tech and choose right track.",
           color: "#D83B01",
+        },
+        {
+          title: "GDSC JMI (Member Cloud Team) ",
+          company: "Google Developer Student Club",
+          company_url: "https://gdsc.community.dev/",
+          logo_path: "gdsclogo.webp",
+          duration: "July 2021 -  Present",
+          location: "Delhi, India",
+          description:
+            "Contributing to the community to help students explore and learn new tech and choose right track.",
+          color: "#4285F4",
         },
       ],
     },
