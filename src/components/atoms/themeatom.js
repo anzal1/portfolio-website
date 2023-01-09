@@ -3,14 +3,14 @@ import { atom } from "recoil";
 export const ThemeState = atom({
   key: "themeState",
   default: {
-    body: "#FFF8E6",
-    text: "#6a040f",
-    highlight: "#ffba08",
-    dark: "#03071e",
-    secondaryText: "#964F56",
-    imageHighlight: "#dc2f02",
+    body: "#FFFEFD",
+    text: "#5D2A42",
+    highlight: "#FFF9EC",
+    dark: "#00072D",
+    secondaryText: "#8D697A",
+    imageHighlight: "#E29F95",
     compImgHighlight: "#E6E6E6",
-    jacketColor: "#9d0208",
-    headerColor: "#dc2f0277",
+    jacketColor: "#FB6376",
+    headerColor: "#E29F9577",
   },
 });
