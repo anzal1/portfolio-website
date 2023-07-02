@@ -11,7 +11,7 @@ const seo = {
   og: {
     title: "Anzal Husain Abidi's Portfolio",
     type: "website",
-    url: "www.google.com/",
+    url: "https://anzalabidi.netlify.app",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
   resumeLink:
-    "https://mega.nz/file/PPwmUICK#NFC4tJo5GZUsN-rkkND6XSVWji6vrorszs7S-NVT_mo",
+    "https://mega.nz/file/THB3hLpa#mQrG4TnBqvIaKf5WlfxLbkE0d07x75ANwe8cAnpRmKk",
   portfolio_repository: "https://github.com/anzal1",
 };
 
@@ -365,7 +365,18 @@ const degrees = {
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and  Web Development.",
       ],
-      website_link: "https://www.jmi.ac.in/",
+      website_link: "https://www.jmi.ac.in",
+    },
+    {
+      title: "City Montessori School",
+      subtitle: "Schooling till class 12th",
+      logo_path: "cms.jpg",
+      alt_name: "CMS",
+      duration: "2003 - 2019",
+      descriptions: [
+        "⚡ I have studied basic subjects like Physics, Chemistry, Biology, Maths, English, Social Studies, Hindi.",
+      ],
+      website_link: "https://www.cmseducation.org",
     },
   ],
 };
@@ -491,7 +502,7 @@ const experience = {
           company: "Angage360",
           company_url: "https://www.angage360.com/",
           logo_path: "angage_logo.jpeg",
-          duration: "December 2021 - Present",
+          duration: "Dec 2021 - Jan 2022",
           location: "Work from Home",
           description:
             "I have been working to develop new tech solutions in analytics of industrial growth and the prevention of burnouts in the tech industry .",
@@ -513,7 +524,7 @@ const experience = {
           company: "Sopay",
           company_url: "https://www.sopay.world",
           logo_path: "sopay.webp",
-          duration: "Sept 2022 - Present",
+          duration: "Sept 2022 - NOV 2022",
           location: "Work From Home",
           description: "Product website design and stuff.",
           color: "#ee3c26",
@@ -523,11 +534,21 @@ const experience = {
           company: "DevDynamics",
           company_url: "https://devdynamics.ai",
           logo_path: "logomark-64.png",
-          duration: "Nov 2021 - Now",
+          duration: "Nov 2021 - Jan 2023",
           location: "Work From Home",
           description:
             "End to end portal design as well as the product landing page.",
           color: "#0071C5",
+        },
+        {
+          title: "Full Stack Developer",
+          company: "BeABrand",
+          company_url: "https://www.admin.beabrand.app",
+          logo_path: "beabrand.svg",
+          duration: "Feb 2023 - Present",
+          location: "Work From Home",
+          description: "Admin panel in REACT.js ,brand website in NEXT.js and backend in NODE.js .",
+          color: "#ee3c26",
         },
       ],
     },
@@ -591,7 +612,7 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "secondanzal.png",
+    profile_image_path: "lucifer_animated.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -599,7 +620,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://geeky-blogs.netlify.app/",
+    link: "https://anzal.hashnode.dev/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

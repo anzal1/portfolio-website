@@ -27,6 +27,8 @@ body {
   animation: grow 5.5s forwards;
 }
 
+
+
 @keyframes grow {
   0% {
     transform: scale(0);

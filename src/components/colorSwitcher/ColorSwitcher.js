@@ -153,7 +153,7 @@ function ThemeToggler() {
         direction={"left"}
         viewScroll={"auto"}
         overflow="auto"
-        menuButton={<i className="fas fa-cog fa-spin" title="Theme"></i>}
+        menuButton={<i className="fas fa-palette fa-spin" title="Choose theme"></i>}
         arrow={true}
       >
         <MenuRadioGroup
