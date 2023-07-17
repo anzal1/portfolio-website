@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work and learn new skills along with active contribution to open source projects.",
   resumeLink:
-    "https://mega.nz/file/THB3hLpa#mQrG4TnBqvIaKf5WlfxLbkE0d07x75ANwe8cAnpRmKk",
+    "https://mega.nz/file/beoi0LQT#EWzNrtkPRHVcP9SBLBeY6LgLdyzWCykQycCQG7nYph8",
   portfolio_repository: "https://github.com/anzal1",
 };
 
@@ -547,7 +547,8 @@ const experience = {
           logo_path: "beabrand.svg",
           duration: "Feb 2023 - Present",
           location: "Work From Home",
-          description: "Admin panel in REACT.js ,brand website in NEXT.js and backend in NODE.js .",
+          description:
+            "Admin panel in REACT.js ,brand website in NEXT.js and backend in NODE.js .",
           color: "#ee3c26",
         },
       ],
