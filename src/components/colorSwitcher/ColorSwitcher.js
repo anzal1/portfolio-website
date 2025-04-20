@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // import { ThemeColors } from "/ThemeColorContext";
 
-import { Menu, MenuItem, MenuButton, MenuRadioGroup } from "@szhsin/react-menu";
+import { Menu, MenuItem, MenuRadioGroup } from "@szhsin/react-menu";
 import { useRecoilState } from "recoil";
 import { ThemeState } from "../atoms/themeatom";
 

@@ -2,15 +2,12 @@ import React from "react";
 import "./App.css";
 import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
-import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
-import { useRecoilState } from "recoil";
+import {  useRecoilValue } from "recoil";
 import { ThemeState } from "./components/atoms/themeatom";
 
 function App() {
-  const [changedTheme, setChangedTheme] = useRecoilState(ThemeState);
-  // const storedTheme = localStorage.getItem("CHOSEN_THEME");
-  // console.log("theme is",storedTheme);
+  const changedTheme = useRecoilValue(ThemeState);
   return (
     <ThemeProvider theme={changedTheme}>
       <>
