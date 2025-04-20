@@ -6,7 +6,7 @@ import { useRecoilState } from "recoil";
 import { ThemeState } from "../atoms/themeatom";
 
 export const ThemeColors = {
-  Blue_Theme: {
+  Blue: {
     body: "#EDF9FE",
     text: "#001C55",
     highlight: "#A6E1FA",
@@ -18,7 +18,7 @@ export const ThemeColors = {
     headerColor: "#0E6BA877",
   },
 
-  Brown_Theme: {
+  Brown: {
     body: "#FFFEFD",
     text: "#5D2A42",
     highlight: "#FFF9EC",
@@ -30,7 +30,7 @@ export const ThemeColors = {
     headerColor: "#E29F9577",
   },
 
-  Purple_Theme: {
+  Purple: {
     body: "#F8EFF4",
     text: "#231942",
     highlight: "#E0B1CB",
@@ -42,7 +42,7 @@ export const ThemeColors = {
     headerColor: "#BE95C477",
   },
 
-  YellowGreen_Theme: {
+  Yellow_Green: {
     body: "#FFFFEB",
     text: "#003F2F",
     highlight: "#dddf00",
@@ -54,7 +54,7 @@ export const ThemeColors = {
     headerColor: "#55a63077",
   },
 
-  Red_Theme: {
+  Red: {
     body: "#FFF8E6",
     text: "#6a040f",
     highlight: "#ffba08",
@@ -66,7 +66,7 @@ export const ThemeColors = {
     headerColor: "#dc2f0277",
   },
 
-  Black_Theme: {
+  Black: {
     body: "#E5E5E5",
     text: "#14213d",
     highlight: "#ffffff",
@@ -78,7 +78,7 @@ export const ThemeColors = {
     headerColor: "#fca31177",
   },
 
-  Pink_Theme: {
+  Pink: {
     body: "#FEE9F2",
     text: "#620E34",
     highlight: "#FBA7CD",
@@ -90,7 +90,7 @@ export const ThemeColors = {
     headerColor: "#ef476f77",
   },
 
-  Violet_Theme: {
+  Violet: {
     body: "#F4EEFC",
     text: "#430A58",
     highlight: "#D6BEF4",
@@ -102,7 +102,7 @@ export const ThemeColors = {
     headerColor: "#9b5de577",
   },
 
-  Green_Theme: {
+  Green: {
     body: "#E6FAF5",
     text: "#084c61",
     highlight: "#9BEED8",
@@ -114,7 +114,7 @@ export const ThemeColors = {
     headerColor: "#07beb877",
   },
 
-  Orange_Theme: {
+  Orange: {
     body: "#FFF0EA",
     text: "#99401F",
     highlight: "#FFB59A",
@@ -131,7 +131,7 @@ function ThemeToggler() {
   const [chooseTheme, setChooseTheme] = useRecoilState(ThemeState);
   // const [themeName, setThemeName] = React.useState("Red");
   // useEffect(() => {
-  //   localStorage.setItem("CHOSEN_THEME", themeName);
+  //   localStorage.setItem("CHOSEN", themeName);
   // }, [themeName]);
 
   return (
@@ -153,7 +153,9 @@ function ThemeToggler() {
         direction={"left"}
         viewScroll={"auto"}
         overflow="auto"
-        menuButton={<i className="fas fa-palette fa-spin" title="Choose theme"></i>}
+        menuButton={
+          <i className="fas fa-palette fa-spin" title="Choose theme"></i>
+        }
         arrow={true}
       >
         <MenuRadioGroup
@@ -171,7 +173,8 @@ function ThemeToggler() {
                 fontSize: "1.2rem",
               }}
             >
-              {key.slice(0, -6)}
+              {/* //show key neat like Orange_Green_Theme */}
+              {key.split("_").join(" ")}
             </MenuItem>
           ))}
         </MenuRadioGroup>

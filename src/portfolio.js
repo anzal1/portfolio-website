@@ -40,12 +40,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
+
   {
     name: "Gmail",
     link: "mailto:cofclan145@gmail.com",
@@ -58,12 +53,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/anzal.abidi/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+
   {
     name: "Instagram",
     link: "https://www.instagram.com/anzalabidi/",
@@ -74,47 +64,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
     {
       title: "Web Development",
       fileName: "FullStackImg",
@@ -197,6 +146,7 @@ const skills = {
         },
       ],
     },
+
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -304,20 +254,53 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
   ],
 };
 
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/cofclan145",
-    },
     {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
@@ -327,28 +310,12 @@ const competitiveSites = {
       profileLink: "https://www.codechef.com/users/lucifer_who",
     },
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "Leetcode",
+      iconifyClassname: "simple-icons:leetcode",
       style: {
-        color: "#1F8ACB",
+        color: "#FFA116",
       },
-      profileLink: "https://codeforces.com/profile/ANZAL",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@anzal_abidi",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/anzalhusainabidi",
+      profileLink: "https://leetcode.com/u/Lucif3r_/",
     },
   ],
 };
@@ -360,126 +327,116 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science Engineering",
       logo_path: "jamia.png",
       alt_name: "JMI",
-      duration: "2020 - Present",
+      duration: "2020 - 2024",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and  Web Development.",
+        "⚡ I secured an CGPA of 9.67 at the end of my course.",
       ],
       website_link: "https://www.jmi.ac.in",
-    },
-    {
-      title: "City Montessori School",
-      subtitle: "Schooling till class 12th",
-      logo_path: "cms.jpg",
-      alt_name: "CMS",
-      duration: "2003 - 2019",
-      descriptions: [
-        "⚡ I have studied basic subjects like Physics, Chemistry, Biology, Maths, English, Social Studies, Hindi.",
-      ],
-      website_link: "https://www.cmseducation.org",
     },
   ],
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link: "",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link: "",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link: "",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link: "",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link: "",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link: "",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link: "",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link: "",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link: "",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link: "",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link: "",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link: "",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-  ],
+  certifications: [],
+  // certifications: [
+  //   {
+  //     title: "Machine Learning",
+  //     subtitle: "- Andrew Ng",
+  //     logo_path: "stanford_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "Stanford University",
+  //     color_code: "#8C151599",
+  //   },
+  //   {
+  //     title: "Deep Learning",
+  //     subtitle: "- Andrew Ng",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#00000099",
+  //   },
+  //   {
+  //     title: "ML on GCP",
+  //     subtitle: "- GCP Training",
+  //     logo_path: "google_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "Google",
+  //     color_code: "#0C9D5899",
+  //   },
+  //   {
+  //     title: "Data Science",
+  //     subtitle: "- Alex Aklson",
+  //     logo_path: "ibm_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "IBM",
+  //     color_code: "#1F70C199",
+  //   },
+  //   {
+  //     title: "Big Data",
+  //     subtitle: "- Kim Akers",
+  //     logo_path: "microsoft_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "Microsoft",
+  //     color_code: "#D83B0199",
+  //   },
+  //   {
+  //     title: "Advanced Data Science",
+  //     subtitle: "- Romeo Kienzler",
+  //     logo_path: "ibm_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "IBM",
+  //     color_code: "#1F70C199",
+  //   },
+  //   {
+  //     title: "Advanced ML on GCP",
+  //     subtitle: "- GCP Training",
+  //     logo_path: "google_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "Google",
+  //     color_code: "#0C9D5899",
+  //   },
+  //   {
+  //     title: "DL on Tensorflow",
+  //     subtitle: "- Laurence Moroney",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#00000099",
+  //   },
+  //   {
+  //     title: "Fullstack Development",
+  //     subtitle: "- Jogesh Muppala",
+  //     logo_path: "coursera_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "Coursera",
+  //     color_code: "#2A73CC",
+  //   },
+  //   {
+  //     title: "Kuberenetes on GCP",
+  //     subtitle: "- Qwiklabs",
+  //     logo_path: "gcp_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "GCP",
+  //     color_code: "#4285F499",
+  //   },
+  //   {
+  //     title: "Cryptography",
+  //     subtitle: "- Saurabh Mukhopadhyay",
+  //     logo_path: "nptel_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "NPTEL",
+  //     color_code: "#FFBB0099",
+  //   },
+  //   {
+  //     title: "Cloud Architecture",
+  //     subtitle: "- Qwiklabs",
+  //     logo_path: "gcp_logo.png",
+  //     certificate_link: "",
+  //     alt_name: "GCP",
+  //     color_code: "#4285F499",
+  //   },
+  // ],
 };
 
 // Experience Page
@@ -487,25 +444,39 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with a few evolving startups as Developer, Designer and Software Architect.",
+    "I have worked with a range of startups and organizations, building products across web, backend, and platform engineering. My roles have spanned frontend design, scalable backend architecture, DevOps workflows, and community mentorship.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
-      experiences: [],
+      experiences: [
+        {
+          title: "Software Engineer",
+          company: "Zomato",
+          company_url: "https://www.zomato.com",
+          logo_path: "zomato_logo.avif",
+          duration: "Jan 2023 - Present",
+          location: "Gurugram, India",
+          description:
+            "At Zomato, I work as a full-time Software Engineer on the Platforms and Internal Tools team, where I architect and develop scalable systems that directly support operations, partner integrations, and NGO-led initiatives. I led the development of core backend services using Go and Node.js, optimized for performance and maintainability. One of my key contributions includes building 'Espresso' – a high-performance PDF generation library that powers invoicing and reporting at scale across multiple verticals.\n\n" +
+            "I also played a crucial role in scaling Feeding India, an NGO platform under Zomato, where I implemented authentication and authorization using Casbin RBAC, designed RESTful APIs, and handled data modeling in MySQL and Redis. Additionally, I worked on a facial recognition-based attendance system in React Native, using on-device image deduplication and pose detection to ensure accuracy and low-latency operation in low-connectivity environments.\n\n" +
+            "Beyond product delivery, I contributed to improving developer experience by streamlining CI/CD pipelines, integrating commit hooks, and enforcing typed contracts across services. My work has consistently focused on system reliability, cross-functional collaboration, and impact-driven engineering that enables large-scale social and commercial initiatives.",
+          color: "#FF5A5F",
+        },
+      ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Software Develepment Intern",
+          title: "Software Development Intern",
           company: "Angage360",
           company_url: "https://www.angage360.com/",
           logo_path: "angage_logo.jpeg",
           duration: "Dec 2021 - Jan 2022",
-          location: "Work from Home",
+          location: "Remote",
           description:
-            "I have been working to develop new tech solutions in analytics of industrial growth and the prevention of burnouts in the tech industry .",
+            "At Angage360, I worked on developing analytics dashboards aimed at tracking industrial growth trends and detecting early signs of developer burnout. I contributed to the backend API architecture and frontend data visualization using React and Chart.js. This role helped me understand data-driven product development in early-stage startups.",
           color: "#ee3c26",
         },
         {
@@ -514,9 +485,9 @@ const experience = {
           company_url: "#",
           logo_path: "oriflame_logo.jpg",
           duration: "Sept 2021 - Nov 2021",
-          location: "Work From Home",
+          location: "Remote",
           description:
-            "New product showcase designs and various tweaks in the UI.",
+            "At Oriflame, I worked with the design team to build a modern and responsive product showcase for their e-commerce platform. I focused on creating clean, interactive components using React and improved page load performance across various screen sizes. The experience strengthened my grasp of UX principles and production-ready UI engineering.",
           color: "#0071C5",
         },
         {
@@ -524,9 +495,10 @@ const experience = {
           company: "Sopay",
           company_url: "https://www.sopay.world",
           logo_path: "sopay.webp",
-          duration: "Sept 2022 - NOV 2022",
-          location: "Work From Home",
-          description: "Product website design and stuff.",
+          duration: "Sept 2022 - Nov 2022",
+          location: "Remote",
+          description:
+            "At Sopay, a Web3 startup, I helped design and implement their product landing website and initial full-stack prototype. I used Next.js for SSR, integrated smart contract APIs for wallet management, and worked closely with designers to iterate on user feedback. The experience taught me how to work within fast-paced, speculative product teams.",
           color: "#ee3c26",
         },
         {
@@ -535,9 +507,9 @@ const experience = {
           company_url: "https://devdynamics.ai",
           logo_path: "logomark-64.png",
           duration: "Nov 2021 - Jan 2023",
-          location: "Work From Home",
+          location: "Remote",
           description:
-            "End to end portal design as well as the product landing page.",
+            "At DevDynamics, I was responsible for building the end-to-end portal system and contributing to the main landing page design. My role involved both backend and frontend work using Node.js, Express, React, and PostgreSQL. I implemented dashboard views, user roles, and integrated analytics systems that provided real-time insights to customers.",
           color: "#0071C5",
         },
         {
@@ -545,10 +517,10 @@ const experience = {
           company: "BeABrand",
           company_url: "https://www.admin.beabrand.app",
           logo_path: "beabrand.svg",
-          duration: "Feb 2023 - Present",
-          location: "Work From Home",
+          duration: "Feb 2023 - June 2024",
+          location: "Remote",
           description:
-            "Admin panel in REACT.js ,brand website in NEXT.js and backend in NODE.js .",
+            "At BeABrand, I built and maintained the admin dashboard using React.js, created the brand's customer-facing website with Next.js, and managed backend services using Node.js. I implemented REST APIs, integrated authentication, and focused on performance tuning and deployment workflows. My work enabled the team to launch new marketing campaigns faster and scale operations.",
           color: "#ee3c26",
         },
       ],
@@ -557,36 +529,36 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "IEEE CS JMI (TECHNICAL ADVISOR) ",
-          company: "IEEE CS",
+          title: "Technical Advisor",
+          company: "IEEE CS JMI",
           company_url: "#",
           logo_path: "IEES_logo.png",
           duration: "Feb 2022 - Present",
           location: "Delhi, India",
           description:
-            "Contributing to the community to help students explore and learn new tech and choose right track.",
+            "As a Technical Advisor for IEEE CS JMI, I guide student developers in navigating career paths in tech, reviewing projects, and organizing hands-on sessions in web development, backend engineering, and system design. I also assist with speaker events and project mentorship.",
           color: "#4285F4",
         },
         {
-          title: "IEEE CS JMI (DSA LEAD)",
-          company: "IEEE  CS",
+          title: "DSA Lead",
+          company: "IEEE CS JMI",
           company_url: "#",
           logo_path: "IEES_logo.png",
           duration: "Jan 2021 - Jan 2022",
           location: "Delhi, India",
           description:
-            "Contributing to the community to help students explore and learn new tech and choose right track.",
+            "I mentored junior students in foundational data structures and algorithms, conducted weekly problem-solving sessions, and curated problem sets. I also introduced students to CP platforms and helped them prepare for coding contests and interviews.",
           color: "#D83B01",
         },
         {
-          title: "GDSC JMI (Member Cloud Team) ",
-          company: "Google Developer Student Club",
+          title: "Member, Cloud Team",
+          company: "Google Developer Student Club - JMI",
           company_url: "https://gdsc.community.dev/",
           logo_path: "gdsclogo.webp",
-          duration: "July 2021 -  Present",
+          duration: "July 2021 - Present",
           location: "Delhi, India",
           description:
-            "Contributing to the community to help students explore and learn new tech and choose right track.",
+            "As part of the Cloud Team at GDSC JMI, I contributed to workshops on cloud infrastructure, GCP, and serverless applications. I also helped organize tech events, mentored juniors on deployment workflows, and participated in solution challenges.",
           color: "#4285F4",
         },
       ],
